@@ -1,0 +1,16 @@
+Simulate a horde for a D&D campaign where the players get to create a maze
+that is magically created within a tower keep, the horde count is based on a 100 percentile die.
+
+The maze is created by players whom are given a short time to make a map within photoshop/gimp using a 60 px black brush to create walls, 
+players are warned that magical based walls must be straight and with no rounded corners, spacing between walls and paths must be 60 px
+or the width of the brush/walls (pre-set in app). Image is then saved as a jpg (1666x1565 pixels) to a file called bound3.jpg saved in root directory
+of the netlogo maze folder. Once netlogo is up, players are asked to place themselves on the map, by clicking on the map within netlogo, the pixel
+will turn Orange (pre-set). Once a horde member touches the orange pixel it will turn black and players failed, and sim will stop. If the timer 
+runs out and players are not touched, the spell is complete and players win.
+
+RED pixels represent danger/death to NPC horde members.
+
+NOTE 1: the ticks option on the interface page should be set from Continuous to "on tick"
+NOTE 2: DM can double click map to place extra traps for horde if needed
+
+Players may view the netlogo screen during the event, however cannot move during the spell casting event.
